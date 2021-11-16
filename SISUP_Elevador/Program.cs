@@ -9,7 +9,7 @@ namespace SISUP_Elevador
     static class Program
     {
         /// <summary>
-        /// Ponto de entrada principal
+        /// Ponto de entrada principal sera que foi?
         /// </summary>
         [STAThread]
         static void Main()
