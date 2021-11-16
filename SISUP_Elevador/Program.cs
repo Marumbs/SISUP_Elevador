@@ -9,7 +9,7 @@ namespace SISUP_Elevador
     static class Program
     {
         /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
+        /// Ponto de entrada principal
         /// </summary>
         [STAThread]
         static void Main()
