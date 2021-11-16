@@ -12,11 +12,13 @@ namespace SISUP_Elevador
         /// Ponto de entrada principal sera que foi?
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var controle = new ControleElevador(andares);
+            Console.WriteLine("Digite 0 para sair a qualquer momento");
+            Console.WriteLine($"O predio possui {andares} andares");
+
+            controle.IniciarElevador();
         }
     }
 }
