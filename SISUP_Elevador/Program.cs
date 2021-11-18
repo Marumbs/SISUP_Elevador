@@ -8,6 +8,7 @@ namespace SISUP_Elevador
 {
     static class Program
     {
+         static int andares => 5;
         /// <summary>
         /// Ponto de entrada principal sera que foi?
         /// </summary>

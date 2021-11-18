@@ -37,7 +37,7 @@ namespace SISUP_Elevador
 
             if (!int.TryParse(entrada, out int resultado))
             {
-                Console.WriteLine("Configurar entrada do botao para valor somente numerico ou colocar um parse");
+                Console.WriteLine("Configurar entrada do botao para valor somente numerico ou colocar parse");
                 goto newEntrada;
             }
             
